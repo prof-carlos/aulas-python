@@ -1,20 +1,18 @@
 import os
-
 os.system("clear")
 
-nota : float = -1
 soma : float = 0
 quantidadeNotas = 0
 
 while True :
-    
     print("=== MENU ===")
     print("S - Inserir uma nota")
     print("P - Ver quantas notas foram inseridas")
     print("N - Calcular média aritmética")
     
     resposta = input("Deseja inserir uma nota: ")
-    #resposta = resposta.upper()
+    resposta = resposta.upper()
+    
     if  resposta == "S":
         nota = float(input("\nDigite uma nota: "))
         soma += nota
