@@ -10,11 +10,12 @@ while True :
     nota = float(input("Digite a primeira nota: "))
     
     resposta = input("Deseja inserir mais uma nota: ")
+    resposta = resposta.upper()
+
+    soma += nota
+    quantidadeNotas += 1
     
-    if  resposta == "sim":
-        soma += nota
-        quantidadeNotas += 1
-    else:
+    if  resposta == "N":
         break
 
 media  = soma / quantidadeNotas
