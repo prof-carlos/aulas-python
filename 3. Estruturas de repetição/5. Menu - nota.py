@@ -19,7 +19,9 @@ while True :
         quantidadeNotas += 1
     elif resposta == "P":
         if quantidadeNotas == 0:
-            print("Não foram inseridas notas. \n")
+            print("Não foram inseridas notas. \n")            input("Pressione uma tecla para continuar...")
+            input("Pressione uma tecla para continuar...")
+
         else: 
             print(f"Quantidade de notas inseridas: {quantidadeNotas} \n")
             input("Pressione uma tecla para continuar...")
