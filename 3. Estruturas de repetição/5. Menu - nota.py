@@ -32,6 +32,7 @@ while True :
             break
     else:
         print("Opção inválida... \n")
+        time.sleep(3)
 
 media  = soma / quantidadeNotas
 
