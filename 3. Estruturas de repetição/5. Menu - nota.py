@@ -20,8 +20,7 @@ while True :
     elif resposta == "P":
         if quantidadeNotas == 0:
             print("Não foram inseridas notas. \n")            input("Pressione uma tecla para continuar...")
-            input("Pressione uma tecla para continuar...")
-
+            time.sleep(3)
         else: 
             print(f"Quantidade de notas inseridas: {quantidadeNotas} \n")
             input("Pressione uma tecla para continuar...")
