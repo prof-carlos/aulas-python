@@ -2,7 +2,6 @@ import os
 
 os.system("clear")
 
-nota : float = -1
 soma : float = 0
 quantidadeNotas = 0
 
