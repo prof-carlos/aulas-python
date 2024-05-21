@@ -5,7 +5,7 @@ while True:
   notas.append(nota)
 
   continuar = input("Deseja digitar outra nota? (s/n): ")
-  if continuar.lower() != "s":
+  if continuar.lower() == "n":
     break
 
 for i in range(len(notas)):
