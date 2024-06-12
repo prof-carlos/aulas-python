@@ -29,4 +29,4 @@ for aluno in listaAlunos:
     print(f"Idade: {aluno.idade}")
     print(f"Peso: {aluno.peso}")
     print(f"Altura: {aluno.altura}")
-    print()
+    print(" === ")
